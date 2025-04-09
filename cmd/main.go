@@ -153,7 +153,7 @@ func isValidSlice(data []string) bool {
 
 	for _, v := range data {
 		if !slices.Contains(validValues, v) {
-			return false // Нашли недопустимое значение
+			return false
 		}
 	}
 	return true
